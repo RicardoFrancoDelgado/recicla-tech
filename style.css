@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: #4b5563;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+  margin: 1rem 2.4rem;
+  border-bottom: 2px solid #b4aeae;
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+}
+header .btn-link {
+  background-color: #21c05c;
+  display: block;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.apresentation-container {
+  padding: 6rem 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+.apresentation-container .apresentation-container-box {
+  width: 43.75rem;
+}
+.apresentation-container .apresentation-container-box h1 {
+  font-size: 3.75rem;
+  color: #1f2937;
+  margin-bottom: 2.5rem;
+}
+.apresentation-container .apresentation-container-box p {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.apresentation-container .apresentation-container-box .apresentation-btn {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+.apresentation-container .apresentation-container-box .apresentation-btn .btn-donate {
+  background-color: #16a34a;
+  border-radius: 0.5rem;
+  padding: 1.2rem 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.apresentation-container .apresentation-container-box .apresentation-btn .btn-get {
+  border: 1px solid #2563eb;
+  border-radius: 0.5rem;
+  padding: 1.2rem 2rem;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 5rem;
+  background-color: #f3f5f8;
+}
+.info-container h3 {
+  font-size: 3.75rem;
+  color: #16a34a;
+  text-align: center;
+}
+.info-container p {
+  font-size: 1.5rem;
+}
+
+.how-it-works-container {
+  padding: 6.87rem 5rem;
+}
+.how-it-works-container .how-it-works-container-title {
+  margin-bottom: 5rem;
+}
+.how-it-works-container .how-it-works-container-title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.75rem;
+}
+.how-it-works-container .how-it-works-container-title p {
+  font-size: 1.75rem;
+}
+.how-it-works-container .card-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+.how-it-works-container .card-container .card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.how-it-works-container .card-container .card-title h3 {
+  font-weight: 400;
+}
+.how-it-works-container .card-container .card-donate {
+  width: 30rem;
+  height: 30rem;
+  background-color: #f3f5f8;
+  border-radius: 0.5rem;
+  padding: 3.5rem 1.5rem;
+}
+.how-it-works-container .card-container .card-donate .donates h3 {
+  color: #16a34a;
+}
+.how-it-works-container .card-container .card-getters {
+  width: 30rem;
+  height: 30rem;
+  background-color: #f3f5f8;
+  border-radius: 0.5rem;
+  padding: 2.5rem 1.5rem;
+}
+.how-it-works-container .card-container .card-getters .getters h3 {
+  color: #2563eb;
+}
+
+.donation-list {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 2.25rem;
+}
+.donation-list .position-green {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #16a34a;
+  border-radius: 50%;
+  text-align: center;
+}
+.donation-list .position-green p {
+  color: white;
+  font-weight: bold;
+}
+
+.getters-list {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 3.25rem;
+}
+.getters-list .position-blue {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2563eb;
+  border-radius: 50%;
+  text-align: center;
+}
+.getters-list .position-blue p {
+  color: white;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
