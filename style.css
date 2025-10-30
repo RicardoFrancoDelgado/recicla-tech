@@ -256,4 +256,49 @@ header .btn-link {
   border: 1px solid #9ca3af;
   border-radius: 0.5rem;
   padding: 28px 37px;
+}
+.feedback-card-inside .feedback-card-inside-img {
+  margin-bottom: 1rem;
+}
+.feedback-card-inside .feedback-card-inside-desc {
+  margin-bottom: 1rem;
+}
+
+.profile-card {
+  display: flex;
+  gap: 12px;
+}
+
+.contact-us-container {
+  background-color: #f3f5f8;
+  text-align: center;
+  padding: 81px;
+}
+.contact-us-container h2 {
+  margin-bottom: 17px;
+  font-size: 40px;
+}
+.contact-us-container p {
+  margin-bottom: 17px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 17px;
+}
+.contact-btn .green-btn {
+  color: white;
+  background-color: #16a34a;
+  padding: 10px 30px;
+  border-radius: 0.5rem;
+}
+.contact-btn .bordered-btn {
+  border: 1px solid #16a34a;
+  color: #16a34a;
+  padding: 10px 30px;
+  border-radius: 0.5rem;
 }/*# sourceMappingURL=style.css.map */

@@ -331,8 +331,55 @@ header {
   border-radius: 0.5rem;
 
   padding: 28px 37px;
+
+  .feedback-card-inside-img {
+    margin-bottom: 1rem;
+  }
+
+  .feedback-card-inside-desc {
+    margin-bottom: 1rem;
+  }
 }
 
-// .profile-card {
-//   display: ;
-// }
+.profile-card {
+  display: flex;
+  gap: 12px;
+}
+
+.contact-us-container {
+  background-color: #f3f5f8;
+  text-align: center;
+  padding: 81px;
+
+  h2 {
+    margin-bottom: 17px;
+    font-size: 40px;
+  }
+
+  p {
+    margin-bottom: 17px;
+    font-size: 25px;
+    line-height: 1.5;
+  }
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 17px;
+
+  .green-btn {
+    color: white;
+    background-color: #16a34a;
+    padding: 10px 30px;
+    border-radius: 0.5rem;
+  }
+
+  .bordered-btn {
+    border: 1px solid #16a34a;
+    color: #16a34a;
+    padding: 10px 30px;
+    border-radius: 0.5rem;
+  }
+}
